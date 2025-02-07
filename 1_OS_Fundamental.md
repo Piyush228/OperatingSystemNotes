@@ -249,7 +249,8 @@ The **Kernel** is the core component of the OS that directly interacts with the 
    - **Think of it as:** A raw **hardware manager** that gives complete freedom to applications.  
    - **Example:** **MIT ExoKernel** – used for research in high-performance computing.  
 ```
-📌 **Real-World Analogy:**  
+📌 Real-World Analogy:  
+
 Imagine a **self-service restaurant**.  
 The restaurant (Exo-Kernel) only provides tables, chairs, and raw ingredients.   
 You (the application) must **cook your own food** instead of ordering from a menu.  
@@ -261,7 +262,8 @@ You (the application) must **cook your own food** instead of ordering from a men
    - **Example:** Some specialized embedded systems use Nano-Kernels for ultra-fast operations.  
 
 ```
-📌 **Real-World Analogy:**  
+📌 Real-World Analogy:
+
 Think of a **skeleton watch** (where you only see the **essential gears moving**). 
 A Nano-Kernel is just the **bare minimum** needed to make the system run.  
 ```

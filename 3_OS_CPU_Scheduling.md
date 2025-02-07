@@ -194,3 +194,5 @@ Imagine a **restaurant** where customers (processes) come in and place orders. T
 - **Round Robin** ensures **fair CPU time** but needs a **good time quantum**.
 - **Priority Scheduling** is useful for **critical tasks**, but **aging is needed** to prevent starvation.
 
+---
+---

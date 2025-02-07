@@ -21,7 +21,7 @@ When a process is created, the OS performs the following steps:
 1. **Assigns a Unique Process ID (PID).**
 2. **Allocates Memory (Stack, Heap, Data, Code).**
 3. **Loads the Program Code into Memory.**
-4. **Initializes Registers & Process Control Block (PCB).**
+4. **Initializes Registers & Process Control Block (PCB).** [ PCB is a Data Structure used by the OS to store information about a process (like process ID, state, registers, memory, etc.)].
 5. **Schedules the Process in the Ready Queue.**
 
 📌 **Diagram for Process Creation**  
@@ -119,9 +119,9 @@ A process goes through multiple states during execution.
          |  New    |  (Process Created)
          +---------+
               ↓
-        +---------+       +-----------+
-  ----- |  Ready  | ----> | Running   |
-  |     +---------+       +-----------+
+         +---------+       +-----------+
+  +----- |  Ready  | ----> | Running   |
+  |      +---------+       +-----------+
   |            ↑                |
   |            |                ↓
   |      +------------+    +-----------+
@@ -150,7 +150,7 @@ A process goes through multiple states during execution.
 ---
 
 ## **📌 Process Control Block (PCB)**
-The **Process Control Block (PCB)** stores all information about a process.
+The **Process Control Block (PCB)** stores all information about a process. 
 
 ### **🔹 Structure of a PCB**
 ```
@@ -204,7 +204,7 @@ The **Process Control Block (PCB)** stores all information about a process.
 | **Process Creation** | `fork()` creates a new process |
 | **Process Termination** | Happens when process completes or is forcefully terminated |
 | **Process States** | New, Ready, Running, Waiting, Terminated |
-| **PCB (Process Control Block)** | Stores all process details (PID, state, memory info, etc.) |
+| **PCB (Process Control Block)** | Stores all process details (PID, state, memory info, registers etc.) |
 
 ---
 

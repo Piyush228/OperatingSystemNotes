@@ -216,8 +216,8 @@ The **Process Control Block (PCB)** stores all information about a process.
 
 
 ---
----
-Here are some **important Linux commands** related to **process management** with **one-line explanations**:
+  
+🔥 **Important Linux commands** related to **process management** with **one-line explanations**:
 
 | **Command** | **Explanation** |
 |------------|----------------|
